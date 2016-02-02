@@ -4,10 +4,18 @@ html {
 }
 
 body {
+	margin: 0px !important;
 }
 
 #container {
-	background: rgba(0,0,0,0.70)
+	background: rgba(0,0,0,0.70);
+	padding: 30px;
+}
+
+form.wufoo {
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
 }
 
 #logo {
@@ -21,10 +29,11 @@ body {
 	font-family: Helvetica, Arial, Verdana, sans-serif !important;
 	font-size: 16pt !important;
 	color: #ffffff !important;
+	font-weight: bold !important;
 }
 
 .wufoo .info div {
-    font-size: 12pt !important;
+    font-size: 11pt !important;
     font-family: Helvetica, Arial, Verdana, sans-serif !important;
     font-style: normal !important;
     font-weight: normal !important;
@@ -32,7 +41,7 @@ body {
 }
 
 .info div {
-    font-size: 12pt !important;
+    font-size: 11pt !important;
     font-family: Helvetica, Arial, Verdana, sans-serif !important;
     font-style: normal !important;
     font-weight: normal !important;
@@ -40,7 +49,7 @@ body {
 }
 
 .wufoo label.desc, .wufoo legend.desc {
-    font-size: 12pt !important;
+    font-size: 11pt !important;
     font-family: Helvetica, Arial, Verdana, sans-serif !important;
     font-style: normal !important;
     font-weight: normal !important;
@@ -48,7 +57,7 @@ body {
 }
 
 .wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label {
-    font-size: 12pt !important;
+    font-size: 8pt !important;
     font-family: Helvetica, Arial, Verdana, sans-serif !important;
     font-style: normal !important;
     font-weight: normal !important;
@@ -66,7 +75,7 @@ form li div label, form li span label {
 }
 
 .wufoo label.desc, .wufoo legend.desc {
-    font-size: 12pt !important;
+    font-size: 11pt !important;
     font-family: Helvetica, Arial, Verdana, sans-serif !important;
     font-style: normal !important;
     font-weight: normal !important;
@@ -75,7 +84,7 @@ form li div label, form li span label {
 
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
 	font-family: Helvetica, Arial, Verdana, sans-serif !important;
-	font-size: 12pt !important;
+	font-size: 11pt !important;
 	color: #000000 !important;
 }
 
@@ -88,3 +97,17 @@ form li div label, form li span label {
 	padding: 5px 8px !important;
 }
 
+.safari .wufoo select.select {
+    font-size: 11pt !important;
+    height: 30px !important;
+}
+
+span.symbol {
+    font-size: 12pt !important;
+    line-height: 205% !important;
+}
+
+li.notStacked div span {
+    margin: 0 7px 0 0 !important;
+    width: 80px !important;
+}
