@@ -19,10 +19,14 @@ form.wufoo {
 }
 
 #logo {
-	height: 100px !important;
-	width: auto !important;
 	display: block !important;
 	float: left !important;
+	margin-bottom: 40px !important;
+}
+
+#logo img {
+    height: 100px !important;
+    width: auto !important;
 }
 
 .wufoo .info h2 {
@@ -110,4 +114,14 @@ span.symbol {
 li.notStacked div span {
     margin: 0 7px 0 0 !important;
     width: 80px !important;
+}
+
+.wufoo input.btTxt {
+    background: #ffffff !important;
+    padding: 5px 8px !important;
+    border: 0px !important;
+    -webkit-border-radius: 4px !important;
+	-moz-border-radius: 4px !important;
+	border-radius: 4px !important;
+	padding: 5px 8px !important;
 }
