@@ -1,15 +1,9 @@
 html {
 	background-size: cover;
 	background-position: center center;
-	font-family: Helvetica, Arial, Verdana, sans-serif;
-	font-size: 12pt;
-	color: #ffffff;
 }
 
 body {
-	font-family: Helvetica, Arial, Verdana, sans-serif;
-	font-size: 12pt;
-	color: #ffffff;
 }
 
 #container {
@@ -21,5 +15,76 @@ body {
 	width: auto;
 	display: block;
 	float: left;
+}
+
+.wufoo .info h2 {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 16pt;
+	color: #ffffff;
+}
+
+.wufoo .info div {
+    font-size: 12pt;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.info div {
+    font-size: 12pt;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.wufoo label.desc, .wufoo legend.desc {
+    font-size: 12pt;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label {
+    font-size: 12pt;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+form li div label, form li span label {
+    margin: 0;
+    padding-top: 3px;
+    clear: both;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    font-size: 10pt;
+    color: #fff;
+    display: block;
+}
+
+.wufoo label.desc, .wufoo legend.desc {
+    font-size: 12pt;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 12pt;
+	color: #000000;
+}
+
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select {
+    background: #ffffff;
+    border: 1px solid #888888;
+    -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	padding: 5px 8px;
 }
 
