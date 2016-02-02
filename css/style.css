@@ -1,11 +1,15 @@
 html {
 	background-size: cover;
 	background-position: center center;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	font-size: 12pt;
+	color: #ffffff;
 }
 
 body {
 	font-family: Helvetica, Arial, Verdana, sans-serif;
 	font-size: 12pt;
+	color: #ffffff;
 }
 
 #container {
